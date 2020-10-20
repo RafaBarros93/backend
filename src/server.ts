@@ -1,5 +1,7 @@
-import express from "express";
+import express from 'express'
 
-const app = express();
+import './database/connection'
 
-app.listen(3002);
+const app = express()
+
+app.listen(3003)
